@@ -1,0 +1,17 @@
+{
+  "name": "relay",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "martendo",
+  "license": "CC0-1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trudeaugamedev/relay.git"
+  },
+  "dependencies": {
+    "ws": "^8.17.0"
+  }
+}
