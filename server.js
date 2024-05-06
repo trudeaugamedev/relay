@@ -19,7 +19,7 @@ class Client {
 	send(data) {
 		this.socket.send(data, {binary: false}, (error) => {
 			if (error) {
-				console.log(`Message send to client ${this.id} (in ${this.roomId}) failed`, msg, error);
+				console.log(`Message send to client ${this.id} (in ${this.roomId}) failed`, data, error);
 			}
 		});
 	}
