@@ -12,6 +12,6 @@
     "url": "https://github.com/trudeaugamedev/relay.git"
   },
   "dependencies": {
-    "ws": "^8.17.0"
+    "ws": "^8.17.1"
   }
 }
